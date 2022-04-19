@@ -49,11 +49,16 @@ h1 span {
   font-weight: bold;
   color: #89C5CC;
 }
-
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 section p {
   font-size: 14px;
   line-height: 28px;
   color: #7D7987;
+  margin: 40px 0;
 }
 
 p span {
@@ -74,3 +79,8 @@ footer a {
   font-weight: bold;
 }
 
+footer p {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
